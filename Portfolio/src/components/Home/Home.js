@@ -1,4 +1,3 @@
-import React from "react";
 import {Col, Container, Row} from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.gif";
 import Particle from "../Particle";

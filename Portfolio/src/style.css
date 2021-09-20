@@ -11,11 +11,10 @@ html {
             rgba(10, 14, 22, 0.86)
     );
 
-
-    height: 100%;
-
     --imp-text-color: #70b4f0;
+    height: 100%;
 }
+
 
 .purple {
     color: var(--imp-text-color) !important;
@@ -247,6 +246,7 @@ html {
     }
 }
 
+
 #tsparticles {
     position: fixed !important;
     background-repeat: no-repeat !important;
@@ -267,7 +267,8 @@ html {
     background-attachment: fixed;
     padding-bottom: 30px !important;
     padding-top: 30px !important;
-
+    position: relative;
+    min-height: 100vh;
 }
 
 .home-content {
@@ -410,6 +411,7 @@ html {
     padding-top: 10px !important;
     padding-bottom: 8px !important;
     position: relative;
+
 }
 
 .footer-copywright {
@@ -459,17 +461,17 @@ input[type=text] {
 /* --------- */
 .project-section {
     background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-
+    height: 100%;
     position: relative !important;
     padding-top: 150px !important;
     padding-bottom: 30px !important;
+    overflow:auto;
+    position: relative;
+    min-height: 100vh;
 }
 
 .project-card {
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
+    padding: 50px 25px !important;
     height: auto !important;
 }
 

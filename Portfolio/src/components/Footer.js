@@ -12,7 +12,7 @@ function Footer() {
                 <Col md="4" className="footer-copywright">
                     <h3>Designed and Developed by Nihal Patel</h3>
                 </Col>
-                <Col md="4" className="footer-copywright">
+                <Col md="4" className="footer-copywright ">
                     <h3>Copyright © {year} NihalPatel</h3>
                 </Col>
                 <Col md="4" className="footer-body">
