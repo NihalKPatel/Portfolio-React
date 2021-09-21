@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fdd6127-9c77-45bc-ab58-5521171c21d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Portfolio/src/Assets/avatar.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/src/Assets/home-main.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/src/components/Lottie.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio/src/Assets/avatar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio/src/Assets/logo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/portfolio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/Assets/about.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/Assets/avatar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/Assets/home-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/Assets/home-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/Assets/home-main.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pre.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pre.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,15 +61,13 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,7 +92,8 @@
       <workItem from="1632136870873" duration="949000" />
       <workItem from="1632158499896" duration="2914000" />
       <workItem from="1632196849581" duration="3209000" />
-      <workItem from="1632210318593" duration="414000" />
+      <workItem from="1632210318593" duration="929000" />
+      <workItem from="1632223971649" duration="2151000" />
     </task>
     <servers />
   </component>
