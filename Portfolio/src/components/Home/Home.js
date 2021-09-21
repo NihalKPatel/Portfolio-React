@@ -1,15 +1,17 @@
 import {Col, Container, Row} from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.gif";
 import Particle from "../Particle";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
-import myImg from "../../Assets/avatar.gif";
+import myImg from "../../Assets/avatar.json";
 import {Link} from "react-router-dom";
-
+import LottieAnimation from '../Lottie';
+import homeLogo from '../../Assets/home-main.json';
 
 function Home() {
+
     return (
         <section>
+
             <Container fluid className="home-section" id="home">
                 <Particle/>
                 <Container className="home-content">
@@ -34,7 +36,8 @@ function Home() {
                         </Col>
 
                         <Col md={5} style={{paddingBottom: 20}}>
-                            <img src={homeLogo} alt="home pic" className="img-fluid"/>
+                            <LottieAnimation lotti={homeLogo} height={475} width={475} />
+
                         </Col>
                     </Row>
                 </Container>
@@ -79,7 +82,7 @@ function Home() {
                         </Col>
                         <Col md={4} className="myAvtar">
                             <Tilt>
-                                <img src={myImg} className="img-fluid" alt="avatar"/>
+                                <LottieAnimation lotti={myImg} height={350} width={350} />
                             </Tilt>
                         </Col>
                     </Row>
