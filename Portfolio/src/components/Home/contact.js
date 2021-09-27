@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import * as emailjs from "emailjs-com";
 import {Container, Row} from "react-bootstrap";
 import swal from 'sweetalert';
+import { Element } from 'react-scroll'
 
 class Contact extends Component {
     constructor(props) {
@@ -55,8 +56,11 @@ class Contact extends Component {
 
     render() {
         return (
+            <Container fluid className="project-section" id="contact">
+                <React.Fragment>
 
-            <Container fluid className="project-section">
+                    <Element id='example-destination' name='example-destination'>
+
                 <div id="my-contact" className="container text-center my-5">
                     <h1 className="project-heading">
                         Contact<strong className="purple"> Me!</strong>
@@ -90,6 +94,9 @@ class Contact extends Component {
                     </Row>
 
                 </div>
+                    </Element>
+
+                </React.Fragment>
             </Container>
         );
     }

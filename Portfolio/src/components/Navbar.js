@@ -3,8 +3,8 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.gif";
-import {Link} from "react-router-dom";
-import {AiOutlineFundProjectionScreen, AiOutlineHome,} from "react-icons/ai";
+import {AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser,} from "react-icons/ai";
+import {Link} from 'react-scroll'
 
 function NavBar() {
     const [expand, updateExpanded] = useState(false);
@@ -21,59 +21,41 @@ function NavBar() {
     window.addEventListener("scroll", scrollHandler);
 
     return (
-        <Navbar
-            expanded={expand}
-            fixed="top"
-            expand="md"
-            className={navColour ? "sticky" : "navbar"}
-        >
+        <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? "sticky" : "navbar"}>
             <Container>
                 <Navbar.Brand href="/">
                     <img src={logo} className="img-fluid logo" alt="brand"/>
                 </Navbar.Brand>
-                <Navbar.Toggle
-                    aria-controls="responsive-navbar-nav"
+                <Navbar.Toggle aria-controls="responsive-navbar-nav"
                     onClick={() => {
                         updateExpanded(expand ? false : "expanded");
-                    }}
-                >
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    }}>
+
                 </Navbar.Toggle>
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ml-auto" defaultActiveKey="#home">
+                    <Nav className="ml-auto remove" defaultActiveKey="#home">
                         <Nav.Item>
-                            <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                            <Link className="navhover" as={Link} to="home" spy={false} smooth={true} onClick={() => updateExpanded(false)}>
                                 <AiOutlineHome style={{marginBottom: "2px"}}/> Home
-                            </Nav.Link>
-                        </Nav.Item>
-
-
-                        <Nav.Item>
-                            <Nav.Link
-                                as={Link}
-                                to="/project"
-                                onClick={() => updateExpanded(false)}
-                            >
-                                <AiOutlineFundProjectionScreen
-                                    style={{marginBottom: "2px"}}
-                                />{" "}
-                                Projects
-                            </Nav.Link>
+                            </Link>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Nav.Link
-                                as={Link}
-                                to="/contact"
-                                onClick={() => updateExpanded(false)}
-                            >
-                                <AiOutlineFundProjectionScreen
-                                    style={{marginBottom: "2px"}}
-                                />{" "}
-                                Contact
-                            </Nav.Link>
+                            <Link className="navhover" as={Link}  to="about" spy={false} smooth={true} onClick={() => updateExpanded(false)}>
+                                <AiOutlineUser style={{marginBottom: "2px"}}/>{" "} About
+                            </Link>
+                        </Nav.Item>
+
+                        <Nav.Item>
+                            <Link className="navhover" as={Link} to="project" spy={false} smooth={true} onClick={() => updateExpanded(false)}>
+                                <AiOutlineFundProjectionScreen style={{marginBottom: "2px"}}/>{" "} Projects
+                            </Link>
+                        </Nav.Item>
+
+                        <Nav.Item>
+                            <Link className="navhover" as={Link}  to="contact" spy={false} smooth={true} onClick={() => updateExpanded(false)}>
+                                <AiOutlineFundProjectionScreen style={{marginBottom: "2px"}}/>{" "} Contact
+                            </Link>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>

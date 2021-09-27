@@ -5,10 +5,11 @@ import Home from "./components/Home/Home";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Home/Contact";
 import Footer from "./components/Footer";
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import {BrowserRouter as Router} from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Home2 from "./components/Home/Home2";
 
 
 function App() {
@@ -28,11 +29,10 @@ function App() {
             <Preloader load={load}/>
             <div className="App" id={load ? "no-scroll" : "scroll"}>
                 <Navbar/>
-                <Switch>
-                    <Route path="/" exact component={Home}/>
-                    <Route path="/project" component={Projects}/>
-                    <Route exact path="/contact" component={Contact}/>
-                </Switch>
+                <Home/>
+                <Home2/>
+                <Projects/>
+                <Contact/>
                 <Footer/>
             </div>
         </Router>

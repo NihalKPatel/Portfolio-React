@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fdd6127-9c77-45bc-ab58-5521171c21d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Portfolio/src/Assets/avatar.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/src/Assets/logo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio/src/components/Home/Home2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/Assets/avatar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/Assets/home-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/Assets/home-bg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Home/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Home/contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Particle.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Particle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Projects/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Projects/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +41,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/portfolio/src/style.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1yHUlPKDVQeDERQXvIRtHiAKlpf" />
   <component name="ProjectLevelVcsManager">
@@ -94,6 +107,9 @@
       <workItem from="1632196849581" duration="3209000" />
       <workItem from="1632210318593" duration="929000" />
       <workItem from="1632223971649" duration="2151000" />
+      <workItem from="1632390736783" duration="642000" />
+      <workItem from="1632403245754" duration="12000" />
+      <workItem from="1632660271624" duration="35723000" />
     </task>
     <servers />
   </component>
