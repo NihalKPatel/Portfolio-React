@@ -23,37 +23,38 @@ function NavBar() {
     return (
         <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? "sticky" : "navbar"}>
             <Container>
-                <Navbar.Brand href="/">
-                    <img src={logo} className="img-fluid logo" alt="brand"/>
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav"
-                    onClick={() => {
-                        updateExpanded(expand ? false : "expanded");
-                    }}>
+                <Navbar.Brand href="/"><img src={logo} className="img-fluid logo" alt="brand"/></Navbar.Brand>
 
-                </Navbar.Toggle>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => {
+                    updateExpanded(expand ? false : "expanded");
+                }}/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto remove" defaultActiveKey="#home">
+
                         <Nav.Item>
-                            <Link className="navhover" as={Link} to="home" spy={false} smooth={true} onClick={() => updateExpanded(false)}>
+                            <Link className="navhover" as={Link} to="home" spy={false} smooth={true}
+                                  onClick={() => updateExpanded(false)}>
                                 <AiOutlineHome style={{marginBottom: "2px"}}/> Home
                             </Link>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Link className="navhover" as={Link}  to="about" spy={false} smooth={true} onClick={() => updateExpanded(false)}>
+                            <Link className="navhover" as={Link} to="about" spy={false} smooth={true}
+                                  onClick={() => updateExpanded(false)}>
                                 <AiOutlineUser style={{marginBottom: "2px"}}/>{" "} About
                             </Link>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Link className="navhover" as={Link} to="project" spy={false} smooth={true} onClick={() => updateExpanded(false)}>
+                            <Link className="navhover" as={Link} to="project" spy={false} smooth={true}
+                                  onClick={() => updateExpanded(false)}>
                                 <AiOutlineFundProjectionScreen style={{marginBottom: "2px"}}/>{" "} Projects
                             </Link>
                         </Nav.Item>
 
                         <Nav.Item>
-                            <Link className="navhover" as={Link}  to="contact" spy={false} smooth={true} onClick={() => updateExpanded(false)}>
+                            <Link className="navhover" as={Link} to="contact" spy={false} smooth={true}
+                                  onClick={() => updateExpanded(false)}>
                                 <AiOutlineFundProjectionScreen style={{marginBottom: "2px"}}/>{" "} Contact
                             </Link>
                         </Nav.Item>

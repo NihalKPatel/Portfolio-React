@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@statickit/react": "^2.1.1",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
@@ -15,7 +16,7 @@
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "lottie-web": "^5.7.13",
-    "node-sass": "^6.0.1",
+    "node-sass": "^4.14.1",
     "nodemailer": "^6.6.3",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
