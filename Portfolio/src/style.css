@@ -540,7 +540,7 @@ textarea {
     position: relative;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .techstack .card {
@@ -591,7 +591,7 @@ textarea {
 
 }
 
- .fa{
+.fa {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -618,7 +618,7 @@ textarea {
     transform: translateY(100px);
 }
 
-.techstack .card:hover .face.face1{
+.techstack .card:hover .face.face1 {
     background: #ff0057;
     transform: translateY(0px);
 }
@@ -632,7 +632,7 @@ textarea {
     opacity: 1;
 }
 
-.techstack .card .face.face1 .content i{
+.techstack .card .face.face1 .content i {
     max-width: 100px;
 }
 
@@ -644,11 +644,11 @@ textarea {
     align-items: center;
     padding: 20px;
     box-sizing: border-box;
-    box-shadow: 0 20px 50px rgba(0,0,0,0.8);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
     transform: translateY(-100px);
 }
 
-.techstack .card:hover .face.face2{
+.techstack .card:hover .face.face2 {
     transform: translateY(0);
 }
 
