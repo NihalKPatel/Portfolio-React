@@ -9,7 +9,7 @@ import {BrowserRouter as Router} from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home2 from "./components/Pages/Home2";
+import About from "./components/Pages/Home2";
 import TechStack from "./components/Pages/TechStack";
 
 
@@ -31,7 +31,7 @@ function App() {
             <div className="App" id={load ? "no-scroll" : "scroll"}>
                 <Navbar/>
                 <Home/>
-                <Home2/>
+                <About/>
                 <TechStack/>
                 <Projects/>
                 <Contact/>

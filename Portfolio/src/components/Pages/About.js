@@ -4,7 +4,7 @@ import LottieAnimation from "../Lottie";
 import myImg from "../../Assets/home-main.json";
 import React from "react";
 
-function Home2() {
+function About() {
     return (
         <section>
             <Container id="about">
@@ -31,4 +31,4 @@ function Home2() {
     );
 }
 
-export default Home2;
+export default About;
