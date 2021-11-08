@@ -9,16 +9,16 @@ import {BrowserRouter as Router} from "react-router-dom";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import About from "./components/Pages/Home2";
+import About from "./components/Pages/About";
 import TechStack from "./components/Pages/TechStack";
 
 
 function App() {
-    const [load, upadateLoad] = useState(true);
+    const [load, updateLoad] = useState(true);
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            upadateLoad(false);
+            updateLoad(false);
         }, 1200);
 
         return () => clearTimeout(timer);
@@ -32,8 +32,8 @@ function App() {
                 <Navbar/>
                 <Home/>
                 <About/>
-                <TechStack/>
                 <Projects/>
+                <TechStack/>
                 <Contact/>
                 <Footer/>
             </div>

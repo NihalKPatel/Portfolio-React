@@ -232,6 +232,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     height: 100vh;
+
 }
 
 .home-content {
@@ -242,7 +243,7 @@ body {
 
 .heading {
     font-size: 2.4em !important;
-    padding-left: 50px !important;
+    padding-left: 0.925em !important;
 }
 
 .heading-name {
@@ -286,16 +287,12 @@ body {
 
 .home-about-description {
     color: #ffffff !important;
-    padding-top: 100px !important;
     padding-bottom: 20px !important;
 }
 
 .home-about-body {
     padding-top: 50px;
     font-size: 1.2em !important;
-    text-align: left;
-    text-align: center;
-
 }
 
 .home-about-social {
@@ -424,8 +421,8 @@ input[type=text] {
     overflow: auto;
     position: relative;
     min-height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .project-card {
@@ -435,7 +432,6 @@ input[type=text] {
 }
 
 .project-card-view {
-    box-shadow: 0 4px 5px 3px rgba(53, 83, 136, 0.46) !important;
     color: #ffffff !important;
     background-color: transparent !important;
     opacity: 0.9 !important;
@@ -446,7 +442,7 @@ input[type=text] {
 .project-card-view:hover {
     transform: scale(1.02) !important;
     overflow: hidden !important;
-    box-shadow: 0 4px 4px 5px rgba(72, 119, 144, 0.56) !important;
+
 }
 
 .card-img-top {
@@ -536,10 +532,10 @@ textarea {
 
 /* techstack */
 .techstack {
-    width: 1000px;
     position: relative;
     display: flex;
     justify-content: space-between;
+
 
 }
 
@@ -609,7 +605,7 @@ textarea {
 }
 
 .techstack .card .face.face1 {
-    position: relative;
+    position: center;
     background: #333;
     display: flex;
     justify-content: center;
@@ -672,3 +668,23 @@ textarea {
     color: #414141;
 }
 
+
+ul.float-child {
+    padding-left: 0;
+
+    text-align: center;
+}
+
+ul.float-child > li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+ul.float-child > li:hover {
+
+}
+
+ul.float-child > li > a {
+    color: white;
+    text-decoration: none;
+}

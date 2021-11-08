@@ -25,9 +25,8 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            //imgPath={leaf}
                             isBlog={false}
-                            title="Invester Tracker"
+                            title="Investor Tracker"
                             description="Worked in a group to create a web application to React js where any user could make save their current crypto and stock investments and it would tell him the current price and also calculate the profit/loss from the recent price and the information."
                             link="https://github.com/NihalKPatel/InvestorTracker"
                         />
@@ -35,8 +34,6 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            //imgPath={editor}
-                            isBlog={false}
                             title="Discord Stock Bot"
                             description="Created a discord stock bot using nodejs that was able to show the latest price for any Crypto or Stock once the user inputted its ticker."
                             link="https://github.com/NihalKPatel/Stock-bot"
@@ -45,7 +42,25 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            //imgPath={bitsOfCode}
+                            isBlog={false}
+                            title="Who wants to be a millionaire"
+                            description="Created a  game called who wants to be a millionaire in Java GUI. Where the user gets a series of questions getting a question correct rewards the users and getting all the questions right gives the users a “million dollars”."
+                            link="https://github.com/NihalKPatel/Who-Wants-to-be-a-millionaire-GUI"
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                            isBlog={false}
+                            title="Restaurant Website"
+                            description="Created a fully responsive Restaurant Webpage template using HTML5, where "
+                            link="https://github.com/NihalKPatel/Who-Wants-to-be-a-millionaire-GUI"
+                        />
+                    </Col>
+
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
                             isBlog={false}
                             title="Who wants to be a millionaire"
                             description="Created a  game called who wants to be a millionaire in Java GUI. Where the user gets a series of questions getting a question correct rewards the users and getting all the questions right gives the users a “million dollars”."

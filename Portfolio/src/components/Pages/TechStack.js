@@ -4,7 +4,7 @@ import React from "react";
 function TechStack() {
     return (
         <section>
-            <Container>
+            <Container className="tech-container">
                 <h1 className="home-about-description" style={{fontSize: "2.6em"}}>Technology <span
                     className="purple"> Stack </span></h1>
                 <div className="techstack">
@@ -18,7 +18,7 @@ function TechStack() {
                         </div>
                         <div className="face face2">
                             <div className="content">
-                                <p>This is where I network and build my professional protfolio.</p>
+                                <p>This is where I network and build my professional portfolio.</p>
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ function TechStack() {
                         </div>
                         <div className="face face2">
                             <div className="content">
-                                <p>This is where I network and build my professional protfolio.</p>
+                                <p>This is where I network and build my professional portfolio.</p>
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ function TechStack() {
                         </div>
                         <div className="face face2">
                             <div className="content">
-                                <p>This is where I network and build my professional protfolio.</p>
+                                <p>This is where I network and build my professional portfolio.</p>
                             </div>
                         </div>
                     </div>

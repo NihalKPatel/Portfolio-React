@@ -1,6 +1,6 @@
 import {Col, Container, Row} from "react-bootstrap";
 import Type from "./Type";
-import {Link} from "react-router-dom";
+import React from "react";
 
 function Home() {
     return (
@@ -12,11 +12,13 @@ function Home() {
                             <h1 style={{paddingBottom: 15}} className="heading">Hi There!</h1>
                             <h1 className="heading-name">I'm<strong className="main-name"> Nihal Patel</strong></h1>
                             <div style={{padding: 50, textAlign: "left"}}><Type/>
-                                <br/><Link to="/Contact" className="button"></Link>
+                                <br/><a className="btn btn-primary mx-auto" href="#contact">Contact Me</a>
                             </div>
+
+
                         </Col>
                     </Row>
-                    <Link as={Link} to="contact" spy={false} smooth={true}>About</Link>
+
                 </Container>
             </Container>
         </section>

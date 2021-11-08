@@ -1,8 +1,7 @@
 import React, {Component} from "react";
 import * as emailjs from "emailjs-com";
-import {Container, Row} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import swal from 'sweetalert';
-import myFile from "../../Assets/CV.pdf";
 
 class Contact extends Component {
 
@@ -58,35 +57,36 @@ class Contact extends Component {
     render() {
         return (
             <Container fluid className="project-section" id="contact">
-                <div id="my-contact" className="container text-center my-5">
+                <Row>
+                    <Col id="my-contact" className="float-child  ">
 
-                    <h1 className="project-heading">Contact<strong className="purple"> Me!</strong></h1>
-                    <p style={{color: "white"}}>Want to say Hello or Have a cool idea? Shoot me a message.</p>
-                    <br/><p style={{color: "white"}}> Name:</p>
+                        <h1 className="project-heading">Contact<strong className="purple"> Me!</strong></h1>
+                        <p style={{color: "white"}}>Want to say Hello or Have a cool idea? Shoot me a message.</p>
+                        <br/><p style={{color: "white"}}> Name:</p>
+                        <form data-netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true">
+                            <Row><input className="col-12 col-md-6 mx-auto" type="textarea" name="name"
+                                        onChange={this.handleChangeName}/></Row>
 
-                    <Row><input className="col-12 col-sm-12 col-md-6 mx-auto" type="textarea" name="name"
-                                onChange={this.handleChangeName}/></Row>
+                            <br/><p style={{color: "white"}}> Email:</p>
 
-                    <br/><p style={{color: "white"}}> Email:</p>
+                            <Row><input className="col-12 col-md-6 mx-auto" type="textarea" name="email"
+                                        ref="email"
+                                        onChange={this.handleChangeEmail}/></Row>
 
-                    <Row><input className="col-12 col-sm-12 col-md-6 mx-auto" type="textarea" name="email" ref="email"
-                                onChange={this.handleChangeEmail}/></Row>
+                            <br/><p style={{color: "white"}}> Message:</p>
 
-                    <br/><p style={{color: "white"}}> Message:</p>
+                            <Row><textarea className="col-12 col-md-6 mx-auto" type="text" name="message"
+                                           ref="message" onChange={this.handleChangeMessage}/></Row>
+                            <br/>
 
-                    <Row><textarea className="col-12 col-sm-12 col-md-6 mx-auto" type="text" name="message"
-                                   ref="message" onChange={this.handleChangeMessage}/></Row>
-
-                    <br/>
-
-                    <Row>
-                        <button className="btn btn-primary mx-auto" type="submit" onClick={this.sendMail}>Send Email
-                        </button>
-                    </Row>
-                    <div className="cv">
-                        <a className="resume btn-white btn-animation-1" href={myFile}>resume</a>
-                    </div>
-                </div>
+                            <Row>
+                                <button className="btn btn-primary mx-auto" type="submit" onClick={this.sendMail}>Send
+                                    Email
+                                </button>
+                            </Row>
+                        </form>
+                    </Col>
+                </Row>
             </Container>
         );
     }
