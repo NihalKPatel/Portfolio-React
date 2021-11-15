@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.gif";
+import logo from "../Assets/logo.webp";
 import {AiOutlineFundProjectionScreen, AiOutlineHome, AiOutlineUser,} from "react-icons/ai";
 import {Link} from 'react-scroll'
 

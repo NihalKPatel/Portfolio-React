@@ -18,7 +18,7 @@ function TechStack() {
                         </div>
                         <div className="face face2">
                             <div className="content">
-                                <p>This is where I network and build my professional portfolio.</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ function TechStack() {
                             <div className="content">
                                 <h3>
                                 </h3>
-                                <p>This is where I read news and network with different social groups.</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ function TechStack() {
                             <div className="content">
                                 <h3>
                                 </h3>
-                                <p>This is where I share code and work on projects.</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@ function TechStack() {
                         </div>
                         <div className="face face2">
                             <div className="content">
-                                <p>This is where I network and build my professional portfolio.</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ function TechStack() {
                             <div className="content">
                                 <h3>
                                 </h3>
-                                <p>This is where I read news and network with different social groups.</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ function TechStack() {
                             <div className="content">
                                 <h3>
                                 </h3>
-                                <p>This is where I share code and work on projects.</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>
@@ -118,7 +118,7 @@ function TechStack() {
                         </div>
                         <div className="face face2">
                             <div className="content">
-                                <p>This is where I network and build my professional portfolio.</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>
@@ -134,7 +134,7 @@ function TechStack() {
                             <div className="content">
                                 <h3>
                                 </h3>
-                                <p>This is where I read news and network with different social groups.</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>
@@ -150,7 +150,7 @@ function TechStack() {
                             <div className="content">
                                 <h3>
                                 </h3>
-                                <p>This is where I share code and work on projects.</p>
+                                <p></p>
                             </div>
                         </div>
                     </div>

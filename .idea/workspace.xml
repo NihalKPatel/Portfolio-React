@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fdd6127-9c77-45bc-ab58-5521171c21d8" name="Default Changelist" comment="quick fix">
+      <change afterPath="$PROJECT_DIR$/Portfolio/src/Assets/logo.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/Assets/techstack/java.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/Assets/logo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/TechStack.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/TechStack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Snake" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -74,19 +69,6 @@
       <recent name="C:\Users\nkpat\OneDrive\Documents\GitHub\Portfolio\portfolio\src\components" />
       <recent name="C:\Users\nkpat\OneDrive\Documents\GitHub\Portfolio\portfolio\src\components\Home" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -115,7 +97,9 @@
       <workItem from="1632765269178" duration="18644000" />
       <workItem from="1632812865752" duration="4737000" />
       <workItem from="1635607923666" duration="519000" />
-      <workItem from="1636288484569" duration="38473000" />
+      <workItem from="1636288484569" duration="41474000" />
+      <workItem from="1636771198426" duration="2131000" />
+      <workItem from="1636952434095" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="quick fix">
       <created>1636366334552</created>
