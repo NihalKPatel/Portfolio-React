@@ -3,8 +3,8 @@
 html {
     --image-gradient: linear-gradient(
             to bottom left,
-            rgba(17, 16, 16, 0.68),
-            rgba(17, 16, 16, 0.678)
+            rgba(17, 16, 16, 0.678),
+            rgba(10, 14, 22, 0.86)
     );
 
     --imp-text-color: #70b4f0;
@@ -428,26 +428,27 @@ input[type=text] {
 .project-card {
     padding: 50px 25px !important;
     height: auto !important;
-    outline: none !important;
+
 }
 
 .project-card-view {
     color: #ffffff !important;
-    background-color:  #282828 !important;
+    background-color: transparent !important;
+    opacity: 0.9 !important;
     transition: all 0.5s ease 0s !important;
-    border: none;
-
+    height: 100% !important;
 }
 
 .project-card-view:hover {
     transform: scale(1.02) !important;
-
     overflow: hidden !important;
+
 }
 
 .card-img-top {
     padding: 20px !important;
     opacity: 0.8 !important;
+    border-radius: 10px !important;
 }
 
 textarea {
@@ -458,11 +459,13 @@ textarea {
 .btn-primary {
     color: #fff !important;
     background-color: #365386 !important;
+    border-color: #365386 !important;
 }
 
 .btn-primary:hover {
     color: #fff !important;
     background-color: rgba(32, 79, 197, 0.84) !important;
+    border-color: rgba(32, 79, 197, 0.84) !important;
 }
 
 .btn:focus {
@@ -520,6 +523,7 @@ textarea {
 .fork-btn-inner:hover {
     transform: translateY(-2px) !important;
     background-color: rgba(77, 131, 211, 0.53) !important;
+    border-color: rgba(77, 99, 211, 0.53) !important;
 }
 
 .fork-btn-inner::after {
@@ -528,7 +532,6 @@ textarea {
 
 /* techstack */
 .techstack {
-    overflow: auto;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -548,18 +551,30 @@ textarea {
     left: 0;
     width: 100%;
     height: 100%;
+    background: #f00;
     transition: 0.7s;
     z-index: 1;
-
 }
 
-.techstack .card .icon {
+.techstack .card:nth-child(1) .icon {
     background: rgba(95, 151, 248, 0.67);
     color: white;
     padding-top: 4em;
 
 }
 
+.techstack .card:nth-child(2) .icon {
+    background: rgba(95, 151, 248, 0.67);
+    color: white;
+    padding-top: 4em
+
+}
+
+.techstack .card:nth-child(3) .icon {
+    background: rgba(95, 151, 248, 0.67);
+    color: white;
+    padding-top: 4em
+}
 
 .techstack .card .icon .fa {
     position: absolute;
