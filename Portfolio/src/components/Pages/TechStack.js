@@ -1,13 +1,13 @@
-import {Container} from "react-bootstrap";
+import {Container, Row} from "react-bootstrap";
 import React from "react";
 
 function TechStack() {
     return (
         <section>
-            <Container className="tech-container">
+            <Container className="project-section">
                 <h1 className="home-about-description" style={{fontSize: "2.6em"}}>Technology <span
                     className="purple"> Stack </span></h1>
-                <div className="techstack">
+                <Row className="techstack">
                     <div className="card">
                         <div className="face face1">
                             <div className="content">
@@ -54,8 +54,6 @@ function TechStack() {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="techstack">
                     <div className="card">
                         <div className="face face1">
                             <div className="content">
@@ -104,8 +102,6 @@ function TechStack() {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="techstack">
                     <div className="card">
                         <div className="face face1">
                             <div className="content">
@@ -154,7 +150,7 @@ function TechStack() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </Row>
             </Container>
         </section>
     );

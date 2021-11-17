@@ -14,8 +14,6 @@ function Home() {
                             <div style={{padding: 50, textAlign: "left"}}><Type/>
                                 <br/><a className="btn btn-primary mx-auto" href="#contact">Contact Me</a>
                             </div>
-
-
                         </Col>
                     </Row>
 
