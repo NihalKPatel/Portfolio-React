@@ -4,6 +4,7 @@ import LottieAnimation from "../Lottie";
 import myImg from "../../Assets/home-main.json";
 import React from "react";
 import myFile from "../../Assets/CV.pdf";
+import "../../style.css"
 
 function About() {
 

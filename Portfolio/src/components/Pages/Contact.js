@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import * as emailjs from "emailjs-com";
 import {Col, Container, Row} from "react-bootstrap";
 import swal from 'sweetalert';
+import "../../style.css"
 
 class Contact extends Component {
 

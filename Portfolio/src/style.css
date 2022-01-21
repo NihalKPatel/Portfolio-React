@@ -411,39 +411,6 @@ input[type=text] {
     color: #889ec0 !important;
 }
 
-/* --------- */
-/* Projects */
-/* --------- */
-.project-section {
-    height: 100%;
-    padding-top: 150px !important;
-    padding-bottom: 30px !important;
-    overflow: auto;
-    position: relative;
-    min-height: 100vh;
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.project-card {
-    padding: 50px 25px !important;
-    height: auto !important;
-
-}
-
-.project-card-view {
-    background-color: #ffffff !important;
-    opacity: 0.9 !important;
-    transition: all 0.5s ease 0s !important;
-    height: 100% !important;
-}
-
-.project-card-view:hover {
-    transform: scale(1.02) !important;
-    overflow: hidden !important;
-
-}
-
 .card-img-top {
     padding: 20px !important;
     opacity: 0.8 !important;
@@ -467,7 +434,7 @@ textarea {
     border-color: rgba(32, 79, 197, 0.84) !important;
 }
 
-.btn:focus {
+underline.btn:focus {
     outline: none !important;
     box-shadow: none !important;
 }

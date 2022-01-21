@@ -1,0 +1,77 @@
+{
+  "0": {
+    "project": "Investor Tracker",
+    "stack": [
+      "react",
+      "express",
+      "node"
+    ],
+    "description": "Worked in a group to create a web application to React js where any user could make save their current crypto and stock investments and it would tell him the current price and also calculate the profit/loss from the recent price and the information.",
+    "github": "https://www.github.com",
+    "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/326643/Sample%20Logo.png",
+    "needs": "People with super powers",
+    "status": "In Development"
+  },
+  "1": {
+    "project": "Project XYZ",
+    "stack": [
+      "python",
+      "django"
+    ],
+    "description": "Some sample text giving project elevator pitch and blah blah and other stuff and goals and dreams and rainbows and butterflies and sunshine. ",
+    "github": "https://www.github.com",
+    "needs": "People with super powers, semi-super powers, or no powers at all",
+    "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/326643/sample%20logo%202.png",
+    "status": "Live"
+  },
+  "2": {
+    "project": "Project X",
+    "stack": [
+      "react",
+      "express",
+      "node"
+    ],
+    "description": "Some sample text giving project elevator pitch and blah blah and other stuff and goals and dreams and rainbows and butterflies and sunshine. ",
+    "github": "https://www.github.com",
+    "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/326643/Sample%20Logo.png",
+    "needs": "People with super powers",
+    "status": "In Development"
+  },
+  "3": {
+    "project": "Project XYZ",
+    "stack": [
+      "python",
+      "django"
+    ],
+    "description": "Some sample text giving project elevator pitch and blah blah and other stuff and goals and dreams and rainbows and butterflies and sunshine. ",
+    "github": "https://www.github.com",
+    "needs": "People with super powers, semi-super powers, or no powers at all",
+    "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/326643/sample%20logo%202.png",
+    "status": "Live"
+  },
+  "4": {
+    "project": "Project X",
+    "stack": [
+      "react",
+      "express",
+      "node"
+    ],
+    "description": "Some sample text giving project elevator pitch and blah blah and other stuff and goals and dreams and rainbows and butterflies and sunshine. ",
+    "github": "https://www.github.com",
+    "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/326643/Sample%20Logo.png",
+    "needs": "People with super powers",
+    "status": "In Development"
+  },
+  "5": {
+    "project": "Project XYZ",
+    "stack": [
+      "python",
+      "django"
+    ],
+    "description": "Some sample text giving project elevator pitch and blah blah and other stuff and goals and dreams and rainbows and butterflies and sunshine. ",
+    "github": "https://www.github.com",
+    "needs": "People with super powers, semi-super powers, or no powers at all",
+    "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/326643/sample%20logo%202.png",
+    "status": "Live"
+  }
+}

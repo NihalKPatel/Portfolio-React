@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fdd6127-9c77-45bc-ab58-5521171c21d8" name="Default Changelist" comment="quick fix">
+      <change afterPath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/Projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/project.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Portfolio/src/components/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/portfolio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/portfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/Projects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/TechStack.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/TechStack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/Type.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/Type.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/ProjectCards.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +69,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Snake" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/src/components/Pages" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -67,6 +81,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nkpat\OneDrive\Documents\GitHub\Portfolio\portfolio\src\components\ProjectCard" />
+      <recent name="C:\Users\nkpat\OneDrive\Documents\GitHub\Portfolio\portfolio\src\components\Pages" />
       <recent name="C:\Users\nkpat\OneDrive\Documents\GitHub\Portfolio\portfolio\src\components" />
       <recent name="C:\Users\nkpat\OneDrive\Documents\GitHub\Portfolio\portfolio\src\components\Home" />
     </key>
@@ -114,7 +130,7 @@
       <workItem from="1640760550039" duration="829000" />
       <workItem from="1641189063394" duration="1196000" />
       <workItem from="1642403542437" duration="7512000" />
-      <workItem from="1642501164972" duration="6989000" />
+      <workItem from="1642501164972" duration="48921000" />
     </task>
     <task id="LOCAL-00001" summary="quick fix">
       <created>1636366334552</created>

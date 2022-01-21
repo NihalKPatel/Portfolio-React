@@ -1,5 +1,6 @@
 import {Container} from "react-bootstrap";
 import React from "react";
+import "../../style.css"
 
 function TechStack() {
     return (

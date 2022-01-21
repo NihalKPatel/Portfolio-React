@@ -1,6 +1,7 @@
 import {Col, Container, Row} from "react-bootstrap";
 import Type from "./Type";
 import React from "react";
+import "../../style.css"
 
 function Home() {
     return (
