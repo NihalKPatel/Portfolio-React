@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fdd6127-9c77-45bc-ab58-5521171c21d8" name="Default Changelist" comment="quick fix">
-      <change afterPath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/Projects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/project.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Portfolio/src/components/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/Projects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/TechStack.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/TechStack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/Pages/Type.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/Pages/Type.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/ProjectCards.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/Projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/Projects.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/project.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/portfolio/src/components/Pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -130,7 +119,12 @@
       <workItem from="1640760550039" duration="829000" />
       <workItem from="1641189063394" duration="1196000" />
       <workItem from="1642403542437" duration="7512000" />
-      <workItem from="1642501164972" duration="48921000" />
+      <workItem from="1642501164972" duration="49375000" />
+      <workItem from="1642820384616" duration="4497000" />
+      <workItem from="1642990774509" duration="20000" />
+      <workItem from="1643170153273" duration="777000" />
+      <workItem from="1643241095819" duration="1373000" />
+      <workItem from="1643526478384" duration="5008000" />
     </task>
     <task id="LOCAL-00001" summary="quick fix">
       <created>1636366334552</created>

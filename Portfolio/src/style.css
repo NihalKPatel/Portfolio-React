@@ -239,6 +239,7 @@ body {
     padding: 9rem 0 2rem !important;
     color: #ffffff;
     text-align: left;
+    height: 100vh;
 }
 
 .heading {

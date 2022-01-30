@@ -10,6 +10,7 @@ function About() {
 
     return (
         <section>
+        <Container>
             <Container className="home-content" id="about">
                 <Row>
                     <Col md={8} className="home-about-description">
@@ -43,6 +44,8 @@ function About() {
                 </Row>
 
             </Container>
+            <div ></div>
+        </Container>
         </section>
     );
 }

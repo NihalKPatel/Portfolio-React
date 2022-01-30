@@ -1,5 +1,5 @@
 import React from "react";
-import {Container} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 
 export default class Card extends React.Component {
     render() {
@@ -21,18 +21,22 @@ export default class Card extends React.Component {
                         <div className="num"></div>
                         <a className="project-card" href="https://github.com/NihalKPatel/InvestorTracker"
                            style={{background: "#333"}}>
-                            <div>
+                            <Col>
+                                <Row>
                                 <h1>  {this.props.data.project}</h1>
+                                </Row>
+                                <Row>
                                 <p>{this.props.data.description}</p>
-                                <div className="date"></div>
+                                </Row>
+                                <Row>
                                 <div className="tags">
                                     {techstack}
                                 </div>
-                            </div>
+                                </Row>
+                            </Col>
                         </a>
                     </div>
                 </Container>
-
             </section>
         )
     }

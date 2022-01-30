@@ -2,76 +2,59 @@
   "0": {
     "project": "Investor Tracker",
     "stack": [
-      "react",
-      "express",
-      "node"
+      "ReactJs",
+      "NodeJs"
     ],
     "description": "Worked in a group to create a web application to React js where any user could make save their current crypto and stock investments and it would tell him the current price and also calculate the profit/loss from the recent price and the information.",
-    "github": "https://www.github.com",
-    "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/326643/Sample%20Logo.png",
-    "needs": "People with super powers",
+    "github": "https://github.com/NihalKPatel/InvestorTrackerm",
     "status": "In Development"
   },
   "1": {
-    "project": "Project XYZ",
+    "project": "Deal Finder",
     "stack": [
-      "python",
-      "django"
+      "Python",
+      "Django",
+      "Html5"
     ],
-    "description": "Some sample text giving project elevator pitch and blah blah and other stuff and goals and dreams and rainbows and butterflies and sunshine. ",
-    "github": "https://www.github.com",
-    "needs": "People with super powers, semi-super powers, or no powers at all",
-    "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/326643/sample%20logo%202.png",
+    "description": "Worked in a group to create a web application in Django where a user could search up any product and it would tell the user the cheapest place to go buy it. ",
+    "github": "https://github.com/NihalKPatel/Deal-Finder",
     "status": "Live"
   },
   "2": {
-    "project": "Project X",
+    "project": "Discord Stock Bot",
     "stack": [
-      "react",
-      "express",
-      "node"
+      "NodeJs"
     ],
-    "description": "Some sample text giving project elevator pitch and blah blah and other stuff and goals and dreams and rainbows and butterflies and sunshine. ",
-    "github": "https://www.github.com",
-    "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/326643/Sample%20Logo.png",
-    "needs": "People with super powers",
-    "status": "In Development"
+    "description": "Created a discord stock bot using nodejs that was able to show the latest price for any Crypto or Stock once the user inputted its ticker.",
+    "github": "https://github.com/NihalKPatel/Stock-bot",
+    "status": "Live"
   },
   "3": {
-    "project": "Project XYZ",
+    "project": "Who wants to be a millionaire",
     "stack": [
-      "python",
-      "django"
+      "Java"
     ],
-    "description": "Some sample text giving project elevator pitch and blah blah and other stuff and goals and dreams and rainbows and butterflies and sunshine. ",
-    "github": "https://www.github.com",
-    "needs": "People with super powers, semi-super powers, or no powers at all",
-    "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/326643/sample%20logo%202.png",
+    "description": "Created a game called who wants to be a millionaire in Java GUI. Where the user gets a series of questions getting a question correct rewards the users.",
+    "github": "https://github.com/NihalKPatel/Who-Wants-to-be-a-millionaire-GUI",
     "status": "Live"
   },
   "4": {
-    "project": "Project X",
+    "project": "Restaurant Website",
     "stack": [
-      "react",
-      "express",
-      "node"
+      "Javascript",
+      "HTML5"
     ],
-    "description": "Some sample text giving project elevator pitch and blah blah and other stuff and goals and dreams and rainbows and butterflies and sunshine. ",
-    "github": "https://www.github.com",
-    "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/326643/Sample%20Logo.png",
-    "needs": "People with super powers",
+    "description": "Created a fully responsive Restaurant Webpage template using HTML5",
+    "github": "https://github.com/NihalKPatel/Restaurant-Webpage",
     "status": "In Development"
   },
   "5": {
-    "project": "Project XYZ",
+    "project": "Machine Learning Chatbot",
     "stack": [
-      "python",
-      "django"
+      "Python"
     ],
-    "description": "Some sample text giving project elevator pitch and blah blah and other stuff and goals and dreams and rainbows and butterflies and sunshine. ",
-    "github": "https://www.github.com",
-    "needs": "People with super powers, semi-super powers, or no powers at all",
-    "image": "https://s3-us-west-2.amazonaws.com/s.cdpn.io/326643/sample%20logo%202.png",
+    "description": "Created a relatvily simple chatbot which can be used to answer \nfrequently asked question in python with deep learning. ",
+    "github": "https://github.com/NihalKPatel/Chatbot",
     "status": "Live"
   }
 }
