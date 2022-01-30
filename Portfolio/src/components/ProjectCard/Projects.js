@@ -30,7 +30,7 @@ function Projects(props) {
     }
 
     return (
-        <Container  id="project">
+        <Container className="project-section" id="project">
             <Row>
                 <Col>
                 <h1 className="project-heading">

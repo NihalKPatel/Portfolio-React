@@ -239,7 +239,6 @@ body {
     padding: 9rem 0 2rem !important;
     color: #ffffff;
     text-align: left;
-    height: 100vh;
 }
 
 .heading {
@@ -446,7 +445,18 @@ underline.btn:focus {
     font-weight: 500 !important;
     padding-top: 10px !important;
 }
-
+.project-section {
+    height: 100%;
+    padding-top: 150px !important;
+    padding-bottom: 30px !important;
+    overflow: auto;
+    position: relative;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
 /* --------- */
 /* About */
 /* --------- */
