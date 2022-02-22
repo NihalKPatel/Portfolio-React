@@ -5,8 +5,8 @@
       "ReactJs",
       "NodeJs"
     ],
-    "description": "Worked in a group to create a web application to React js where any user could make save their current crypto and stock investments and it would tell him the current price and also calculate the profit/loss from the recent price and the information.",
-    "github": "https://github.com/NihalKPatel/InvestorTrackerm",
+    "description": "Creating a web application to React js where any user could make save their current crypto and stock investments and it would tell him the current price and also calculate the profit/loss from the recent price and the information.",
+    "github": "https://github.com/NihalKPatel/InvestorTracker",
     "status": "In Development"
   },
   "1": {

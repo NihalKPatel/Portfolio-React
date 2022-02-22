@@ -1,7 +1,7 @@
 import React from "react";
 import data from "./data.json";
 import Card from "./Card"
-import "./project.css";
+import "./project.scss";
 import {Col, Container, Row} from "react-bootstrap";
 
 function Projects(props) {

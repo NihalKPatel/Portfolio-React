@@ -1,5 +1,5 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
+import {Container} from "react-bootstrap";
 
 export default class Card extends React.Component {
     render() {
@@ -10,7 +10,7 @@ export default class Card extends React.Component {
         let i = 0
         while (stacks[i] !== undefined) {
             console.log(stacks[i])
-            techstack[i] = <div className="tag stackbtn"><p>{stacks[i]}</p></div>
+            techstack[i] = <div className="tag stackbtn"><p>{stacks[i]} &nbsp;</p></div>
             i++
         }
 
@@ -19,22 +19,15 @@ export default class Card extends React.Component {
                 <Container>
                     <div className="card-grid-space">
                         <div className="num"></div>
-                        <a className="project-card" href="https://github.com/NihalKPatel/InvestorTracker"
-                           style={{background: "#333"}}>
-                            <Col>
-                                <Row>
-                                <h1>  {this.props.data.project}</h1>
-                                </Row>
-                                <Row>
-                                <p>{this.props.data.description}</p>
-                                </Row>
-                                <Row>
-                                <div className="tags">
+                        <a href={this.props.data.github} className= "data-card">
+                            <h3>{this.props.data.project}</h3>
+                                <h4><div className="tags">
                                     {techstack}
-                                </div>
-                                </Row>
-                            </Col>
+                                </div></h4>
+                            <p>{this.props.data.description}</p>
+                            <span className="link-text"> View More </span>
                         </a>
+
                     </div>
                 </Container>
             </section>

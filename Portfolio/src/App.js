@@ -9,7 +9,6 @@ import {BrowserRouter as Router} from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import About from "./components/Pages/About";
-import TechStack from "./components/Pages/TechStack";
 
 
 function App() {

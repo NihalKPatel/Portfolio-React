@@ -452,10 +452,7 @@ underline.btn:focus {
     overflow: auto;
     position: relative;
     min-height: 100vh;
-    margin-left: auto;
-    margin-right: auto;
-    margin-left: 0;
-    margin-right: 0;
+
 }
 /* --------- */
 /* About */
