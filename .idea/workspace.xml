@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fdd6127-9c77-45bc-ab58-5521171c21d8" name="Default Changelist" comment="quick fix">
-      <change afterPath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/project.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/card.js" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/card.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/components/ProjectCard/project.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/src/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="2fdd6127-9c77-45bc-ab58-5521171c21d8" name="Default Changelist" comment="quick fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,9 +29,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/portfolio/src/style.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -129,6 +123,7 @@
       <workItem from="1644810534436" duration="3943000" />
       <workItem from="1645047923976" duration="9000" />
       <workItem from="1645483122946" duration="9433000" />
+      <workItem from="1662985531339" duration="66000" />
     </task>
     <task id="LOCAL-00001" summary="quick fix">
       <created>1636366334552</created>
